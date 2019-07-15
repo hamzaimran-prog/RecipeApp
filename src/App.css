@@ -1,11 +1,54 @@
 .App {
   text-align: center;
 }
+body{
+
+  
+}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+.Main {
+
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.Recipe_Con {
+
+  margin: 0 auto;
+  width: 26%;
+  float: left;
+  padding: 10px 20px 20px 20px;
+  border: 5px solid wheat;
+  margin: 0 0 40px 30px;
+}
+.search-form {
+  width: 20%;
+  margin: 0 auto;
+}
+
+input {
+  border: 2px solid wheat;
+  padding: 10px 10px 10px 10px;
+  margin: 0 0 30px 10px;
+}
+button {
+  border: 1px solid gray;
+  padding: 10px 20px 10px 20px;
+  margin: 0 0 0 10px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+
+.head1{
+
+text-align: center;
+
 }
 
 .App-header {
